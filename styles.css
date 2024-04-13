@@ -1,0 +1,157 @@
+:root{
+  --black: #2B2B2B;
+  --blackText: #333333;
+  --white: #fff;
+  --lightGray: #C4C4C4;
+  --yellow: #F8D57E;
+  --purple: #BFAFF2;
+}
+
+body {
+  background-color: var(--black);
+  font-family: Poppins;
+
+}
+
+header {
+  padding-left: 50px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+header > h2 {
+  font-weight: 24px;
+  color: var(--white);
+}
+
+.firstSection{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 77px;
+  padding-bottom: 77px;
+  display: flex;
+  flex-direction: row;
+  gap: 115px;
+}
+
+.leftContent{
+  gap: 50px;
+}
+
+.title{
+  font-size: 60px;
+  font-weight: SemiBold;
+  color: var(--white);
+}
+
+.subTitle{
+  color: var(--lightGray);
+  font-size: 18;
+  margin-bottom: 50px;
+}
+
+.button{
+  all: unset;
+  background-color: var(--yellow);
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 16px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  object-fit: contain;
+}
+
+.button > span {
+  color: var(--blackText)
+}
+
+.button.secondary {
+  background-color: var(--purple);
+}
+
+
+.secondSection{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+}
+
+.feature{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 255px;
+  gap: 5px;
+}
+
+.feature > h4 {
+  font-weight: SemiBold;
+  color: var(--white);
+}
+
+.feature > p {
+  color: var(--lightGray);
+  text-align: center;
+}
+
+.feature > img {
+  width: 64px;
+  height: 64px;
+}
+
+.thirdSection {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 77px;
+  padding-bottom: 77px;
+  display: flex;
+  flex-direction: row;
+  gap: 115px;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+
+}
+
+.footerLeft{
+  color: var(--white);
+  font-weight: SemiBold;
+}
+
+.footerRight{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 30%;
+}
+
+.footerRight>span{
+  color: var(--white);
+}
+
+.sendEmailContainer{
+  display: flex;
+  gap: 25px;
+}
+
+.input{
+  all: unset;
+  background-color: var(--blackText);
+  color: var(--lightGray);
+  border-radius: 15px;
+  padding-left: 20px;
+  width: 100%;
+}
+
